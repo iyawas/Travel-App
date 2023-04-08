@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.section {
+    width: 30%;
+    height: 50rem;
+    background-color: rgb(233, 229, 229);
+}
+.header {
+    display: flex; 
+    flex-direction: column;
+    width: 100%; 
+    height: 20rem;
+    background-color: aqua;
+    border-radius: 0 0 0 3rem;
+}
+.head {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+.icon {
+    width: 5rem;
+    height: 3rem;
+    display: flex;
+}
+.network {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: white;
+}
+.ade {
+    margin-top: 5rem;
+    width: 10rem;
+    height: 4rem;
+    padding: 1rem;
+    margin-left: 6rem;
+    color: white;   
+}
+.sign {
+    margin-top: 3rem;
+    width: 10rem; 
+    height: 3rem;
+    background-color: red;
+    border-radius: 3rem 3rem 3rem 3rem;
+    margin-left: 3rem;
+    color: white;
+    padding-left: 5.5rem;
+    padding-top: 1rem;
+}
+.in {
+    font-size: 1rem;
+}
+.a img {
+    width: 4rem;
+    height: 4rem;
+    margin-left: 3rem;
+    color: white;
+}
+.b    {
+    width: 15rem;
+    height: 10rem;
+    margin-left: 5rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+input::placeholder {
+  font-size: 1rem;  
+}
+.email input {
+    width: 12rem;
+    height: 3rem;
+    border-radius: 1rem;
+    padding-left: 0.5rem;
+}
+.remember {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.r {
+    margin-left: 6rem;
+}
